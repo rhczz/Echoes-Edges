@@ -247,6 +247,17 @@
           
           
           <li>
+            <a href="/about/">
+              
+              ABOUT
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/categories/">
               
               CATEGORIES
@@ -261,17 +272,6 @@
             <a href="/archive/">
               
               ARCHIVES
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/about/">
-              
-              ABOUT
               
               
             </a>
@@ -298,32 +298,6 @@
           
 
           <!-- LangSelect -->
-          
-          
-          <!-- LangSelect start -->
-          <!-- LangSelect -->
-<li>
-  <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      English
-    </span>
-    <select id="lang-select" data-canonical="archives/index.html">
-      
-      
-      <option value="en"  selected >
-        English
-      </option>
-      
-      <option value="cn" >
-        简体中文
-      </option>
-      
-    </select>
-  </a>
-</li>
-
-          <!-- LangSelect end -->
-          
           
         </ul>
       </div>
@@ -375,18 +349,18 @@
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/home_bg.jpg');
       --intro-header-background-image-url-post: url('');
-      --intro-header-background-image-url-page: url('/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-page: url('/img/header_img/archive_bg2.jpeg');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/home_bg.jpg');
       --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg2.jpeg');
     }
 
     header.intro-header {
        /*page*/
         background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('/img/header_img/archive_bg2.jpg'); */
+        /* background-image: url('/img/header_img/archive_bg2.jpeg'); */
       
     }
 
@@ -478,31 +452,47 @@
       <!-- 归档列表 -->
       
       <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2020">
-          <span class="tag-text">2020</span>
+        <span class="fa fa-calendar-times-o listing-seperator" id="2025">
+          <span class="tag-text">2025</span>
         </span>
         <ul>
           
           <li>
-            04-17
+            04-30
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/en/Hello-World/" style="color: #0085a1">
+            <a href="/Circuit_Shield/" style="color: #0085a1">
               <span>
-                hello world
-                
+                限流、降级、熔断：微服务架构中的三重守护
               </span>
             </a>
           </li>
           
           <li>
-            04-17
+            04-30
             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/Hello-World/" style="color: #0085a1">
+            <a href="/Rate_Limiting/" style="color: #0085a1">
+              <span>
+                分布式限流——Redis + Lua实现滑动窗口算法
+              </span>
+            </a>
+          </li>
+          
+          <li>
+            04-27
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/Authentication/" style="color: #0085a1">
+              <span>
+                微服务中各种认证方式
+              </span>
+            </a>
+          </li>
+          
+          <li>
+            04-25
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/Hello-World/" style="color: #0085a1">
               <span>
                 hello world
-                
-                -- cn
-                
               </span>
             </a>
           </li>
@@ -551,7 +541,35 @@
   <div class="tags">
     
     
-    <a href="/tags/#hello world" title="hello world" rel="2">hello world</a>
+    <a href="/tags/#微服务" title="微服务" rel="1">微服务</a>
+    
+    
+    
+    <a href="/tags/#认证" title="认证" rel="1">认证</a>
+    
+    
+    
+    <a href="/tags/#hello world" title="hello world" rel="1">hello world</a>
+    
+    
+    
+    <a href="/tags/#限流" title="限流" rel="2">限流</a>
+    
+    
+    
+    <a href="/tags/#熔断" title="熔断" rel="1">熔断</a>
+    
+    
+    
+    <a href="/tags/#降级" title="降级" rel="1">降级</a>
+    
+    
+    
+    <a href="/tags/#Redis" title="Redis" rel="1">Redis</a>
+    
+    
+    
+    <a href="/tags/#Lua" title="Lua" rel="1">Lua</a>
     
     
   </div>
@@ -632,11 +650,19 @@
 <div class="widget">
   <ul>
     
-    <a href="../cn/Hello-World/">
-      <li>hello world</li>
+    <a href="../Circuit_Shield/">
+      <li>限流、降级、熔断：微服务架构中的三重守护</li>
     </a>
     
-    <a href="../en/Hello-World/">
+    <a href="../Rate_Limiting/">
+      <li>分布式限流——Redis + Lua实现滑动窗口算法</li>
+    </a>
+    
+    <a href="../Authentication/">
+      <li>微服务中各种认证方式</li>
+    </a>
+    
+    <a href="../Hello-World/">
       <li>hello world</li>
     </a>
     
@@ -660,7 +686,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2020/04/">April 2020</a><span class="archive-list-count">2</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2025/04/">April 2025</a><span class="archive-list-count">4</span></li></ul>
 </div>
 
 
@@ -672,8 +698,12 @@
 <div class="widget">
   <ul>
     
-    <a href="/categories/#hello world">
-      <li>hello world</li>
+    <a href="/categories/#技术花园">
+      <li>技术花园</li>
+    </a>
+    
+    <a href="/categories/#时光笔记">
+      <li>时光笔记</li>
     </a>
     
   </ul>
@@ -776,10 +806,6 @@
     <!-- Scroll end -->
   
 
-  
-    <!-- LangSelect start -->
-    <script type="text/javascript" src="/js/langselect.js"></script>
-    <!-- LangSelect end -->
   
 
   

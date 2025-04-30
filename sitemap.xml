@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.renhc.online/Circuit_Shield/</loc>
+    
+    <lastmod>2025-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/Rate_Limiting/</loc>
+    
+    <lastmod>2025-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/Authentication/</loc>
+    
+    <lastmod>2025-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.renhc.online/tags/index.html</loc>
     
     <lastmod>2025-04-26</lastmod>
@@ -29,18 +56,9 @@
   </url>
   
   <url>
-    <loc>https://blog.renhc.online/cn/Hello-World/</loc>
+    <loc>https://blog.renhc.online/Hello-World/</loc>
     
-    <lastmod>2020-04-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.renhc.online/en/Hello-World/</loc>
-    
-    <lastmod>2020-04-16</lastmod>
+    <lastmod>2025-04-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,15 +85,64 @@
 
   <url>
     <loc>https://blog.renhc.online/</loc>
-    <lastmod>2025-04-26</lastmod>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://blog.renhc.online/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/%E8%AE%A4%E8%AF%81/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.renhc.online/tags/hello-world/</loc>
-    <lastmod>2025-04-26</lastmod>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/%E9%99%90%E6%B5%81/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/%E7%86%94%E6%96%AD/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/%E9%99%8D%E7%BA%A7/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/Redis/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/tags/Lua/</loc>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -83,8 +150,15 @@
 
   
   <url>
-    <loc>https://blog.renhc.online/categories/hello-world/</loc>
-    <lastmod>2025-04-26</lastmod>
+    <loc>https://blog.renhc.online/categories/%E6%8A%80%E6%9C%AF%E8%8A%B1%E5%9B%AD/</loc>
+    <lastmod>2025-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.renhc.online/categories/%E6%97%B6%E5%85%89%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

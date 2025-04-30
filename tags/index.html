@@ -247,6 +247,17 @@
           
           
           <li>
+            <a href="/about/">
+              
+              ABOUT
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/categories/">
               
               CATEGORIES
@@ -261,17 +272,6 @@
             <a href="/archive/">
               
               ARCHIVES
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/about/">
-              
-              ABOUT
               
               
             </a>
@@ -298,32 +298,6 @@
           
 
           <!-- LangSelect -->
-          
-          
-          <!-- LangSelect start -->
-          <!-- LangSelect -->
-<li>
-  <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      English
-    </span>
-    <select id="lang-select" data-canonical="tags/index.html">
-      
-      
-      <option value="en"  selected >
-        English
-      </option>
-      
-      <option value="cn" >
-        简体中文
-      </option>
-      
-    </select>
-  </a>
-</li>
-
-          <!-- LangSelect end -->
-          
           
         </ul>
       </div>
@@ -461,11 +435,67 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#hello world" title="hello world" rel="2">hello world</a>
+        <a href="#微服务" title="微服务" rel="1">微服务</a>
+        
+        <a href="#认证" title="认证" rel="1">认证</a>
+        
+        <a href="#hello world" title="hello world" rel="1">hello world</a>
+        
+        <a href="#限流" title="限流" rel="2">限流</a>
+        
+        <a href="#熔断" title="熔断" rel="1">熔断</a>
+        
+        <a href="#降级" title="降级" rel="1">降级</a>
+        
+        <a href="#Redis" title="Redis" rel="1">Redis</a>
+        
+        <a href="#Lua" title="Lua" rel="1">Lua</a>
         
       </div>
 
       <!-- 标签列表 -->
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="微服务">
+          <span class="tag-text">微服务</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Authentication/">
+            <h2 class="post-title">
+              微服务中各种认证方式
+            </h2>
+            
+            <h3 class="post-subtitle">
+              微服务认证方式详解：机制、流程与选型建议
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="认证">
+          <span class="tag-text">认证</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Authentication/">
+            <h2 class="post-title">
+              微服务中各种认证方式
+            </h2>
+            
+            <h3 class="post-subtitle">
+              微服务认证方式详解：机制、流程与选型建议
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
       
       <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="hello world">
@@ -473,12 +503,9 @@
         </span>
         
         <div class="post-preview">
-          <a href="/cn/Hello-World/">
+          <a href="/Hello-World/">
             <h2 class="post-title">
               hello world
-              
-              -- cn
-              
             </h2>
             
             <h3 class="post-subtitle">
@@ -489,15 +516,119 @@
         </div>
         <hr>
         
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="限流">
+          <span class="tag-text">限流</span>
+        </span>
+        
         <div class="post-preview">
-          <a href="/en/Hello-World/">
+          <a href="/Circuit_Shield/">
             <h2 class="post-title">
-              hello world
-              
+              限流、降级、熔断：微服务架构中的三重守护
             </h2>
             
             <h3 class="post-subtitle">
-              hello world
+              系统稳定性保障策略
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+        <div class="post-preview">
+          <a href="/Rate_Limiting/">
+            <h2 class="post-title">
+              分布式限流——Redis + Lua实现滑动窗口算法
+            </h2>
+            
+            <h3 class="post-subtitle">
+              原理解析 · Lua 脚本实现 · Java/Spring Boot 调用示例
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="熔断">
+          <span class="tag-text">熔断</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Circuit_Shield/">
+            <h2 class="post-title">
+              限流、降级、熔断：微服务架构中的三重守护
+            </h2>
+            
+            <h3 class="post-subtitle">
+              系统稳定性保障策略
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="降级">
+          <span class="tag-text">降级</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Circuit_Shield/">
+            <h2 class="post-title">
+              限流、降级、熔断：微服务架构中的三重守护
+            </h2>
+            
+            <h3 class="post-subtitle">
+              系统稳定性保障策略
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Redis">
+          <span class="tag-text">Redis</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Rate_Limiting/">
+            <h2 class="post-title">
+              分布式限流——Redis + Lua实现滑动窗口算法
+            </h2>
+            
+            <h3 class="post-subtitle">
+              原理解析 · Lua 脚本实现 · Java/Spring Boot 调用示例
+            </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Lua">
+          <span class="tag-text">Lua</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/Rate_Limiting/">
+            <h2 class="post-title">
+              分布式限流——Redis + Lua实现滑动窗口算法
+            </h2>
+            
+            <h3 class="post-subtitle">
+              原理解析 · Lua 脚本实现 · Java/Spring Boot 调用示例
             </h3>
             
           </a>
@@ -598,10 +729,6 @@
     <!-- Scroll end -->
   
 
-  
-    <!-- LangSelect start -->
-    <script type="text/javascript" src="/js/langselect.js"></script>
-    <!-- LangSelect end -->
   
 
   
