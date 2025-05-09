@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.renhc.online/Circuit_Shield/</loc>
+    <loc>https://blog.renhc.online/2025/04/30/Circuit_Shield/</loc>
     <lastmod>2025-04-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.renhc.online/Rate_Limiting/</loc>
+    <loc>https://blog.renhc.online/2025/04/30/Rate_Limiting/</loc>
     <lastmod>2025-04-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.renhc.online/Authentication/</loc>
+    <loc>https://blog.renhc.online/2025/04/27/Authentication/</loc>
     <lastmod>2025-04-27</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.renhc.online/Hello-World/</loc>
-    <lastmod>2025-04-24</lastmod>
   </url>
 </urlset> 
